@@ -1,11 +1,11 @@
 # -
 #   filename: [FILENAME.JPG/.PNG]
-#   lat: [-90 - 90]
-#   long: [-180 - 180]
+#   lat: [-90 < x < 90]
+#   long: [-180 < x < 180]
 #   subjects:
 #   -
-#     width: [0 - 1]
-#     height: [0 - 1]
+#     width: [0 < x < 1]
+#     height: [0 < x < 1]
 #     names:
 #     - [NAME1]
 #     - [NAME2]
