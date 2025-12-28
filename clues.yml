@@ -1,25 +1,26 @@
-# -
+# [SHA256 hash of image]:
 #   filename: [FILENAME.JPG/.PNG]
+#   credit: [SOURCE / PHOTOGRAPHER]
 #   lat: [-90 < x < 90]
 #   long: [-180 < x < 180]
 #   subjects:
 #   -
-#     width: [0 < x < 1]
-#     height: [0 < x < 1]
+#     x: [0 < x < 1] (origin top left)
+#     y: [0 < x < 1] (origin top left)
 #     names:
 #     - [NAME1]
 #     - [NAME2]
 
--
-  filename: image1.jpg
+
+  filename: image1.png
+  hash: 
+  credit: a nice photograher
   lat: 90
   long: 180
   subjects:
   -
-    width: .32
-    height: .35
+    x: .32
+    y: .35
     names:
     - HUB
     - Hezner Union Building
-
-      

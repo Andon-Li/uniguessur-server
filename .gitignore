@@ -1,1 +1,4 @@
 .venv
+images/
+database.db
+__pycache__
