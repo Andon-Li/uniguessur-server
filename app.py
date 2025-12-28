@@ -12,8 +12,7 @@ from hashlib import sha256
 # Load clues.json into memory
 with open('clues.yml', 'r') as file:
     clues = yaml.safe_load(file)
-print(clues)
-quit()
+
 IMAGE_DIR = os.path.join(os.path.dirname(__file__), "images/")
 
 
@@ -32,7 +31,7 @@ def index():
 def newSession():
     session['results'] = []
     session['image_hashes_seen'] = []
-
+    return '<p>Ready!</p>'
 
 
 @app.route('/uniguessur/random_clue')
