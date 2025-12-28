@@ -2,7 +2,7 @@ import sqlite3
 
 
 
-connection = sqlite.connect('uniguessur.db')
+connection = sqlite3.connect('uniguessur.db')
 cursor = connection.cursor()
 
 

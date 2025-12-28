@@ -48,3 +48,29 @@ images/
   CORS_ORIGINS = ['http://localhost:3000']
 
   -
+
+possible project strucure
+change as needed
+uniguessur-server/
+├── app.py  
+ ├── config.py # Settings (need)
+├── db_helpers.py # Database queries (recommended)
+├── update_db.py # Database setup
+├── dl.py # String similarity
+├── run.py # Production entry (optional)
+├── requirements.txt # Dependencies
+├── .env # Secrets
+├── .gitignore # Git ignore
+├── README.md # Docs
+├── test_app.py # Tests (optional)
+├── uniguessur.db # Database (auto-created)
+├── clues.yml # Old data (have, will replace)
+├── images/ # Image files (wont be pushed to git but stored locally)
+│ ├── image1.png
+│ └── image2.jpg
+├── static/  
+ │ ├── css/
+│ ├── js/
+│ └── images/
+└── templates/  
+ └── index.html
