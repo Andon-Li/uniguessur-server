@@ -53,7 +53,7 @@ possible project strucure
 change as needed
 uniguessur-server/
 ├── app.py  
- ├── config.py # Settings (need)
+ ├── config.py # Settings 1(need)
 ├── db_helpers.py # Database queries (recommended)
 ├── update_db.py # Database setup
 ├── dl.py # String similarity
